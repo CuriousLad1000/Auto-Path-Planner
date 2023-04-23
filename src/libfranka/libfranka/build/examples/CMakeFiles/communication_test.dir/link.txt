@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/communication_test.dir/communication_test.cpp.o  -o communication_test  -Wl,-rpath,/home/shadowd/libfranka/libfranka/build: libexamples_common.a ../libfranka.so.0.7.1 

@@ -1,0 +1,187 @@
+[
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/control_loop.cpp.o -c /home/shadowd/libfranka/libfranka/src/control_loop.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/control_loop.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/control_tools.cpp.o -c /home/shadowd/libfranka/libfranka/src/control_tools.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/control_tools.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/control_types.cpp.o -c /home/shadowd/libfranka/libfranka/src/control_types.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/control_types.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/duration.cpp.o -c /home/shadowd/libfranka/libfranka/src/duration.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/duration.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/errors.cpp.o -c /home/shadowd/libfranka/libfranka/src/errors.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/errors.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/exception.cpp.o -c /home/shadowd/libfranka/libfranka/src/exception.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/exception.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/gripper.cpp.o -c /home/shadowd/libfranka/libfranka/src/gripper.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/gripper.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/gripper_state.cpp.o -c /home/shadowd/libfranka/libfranka/src/gripper_state.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/gripper_state.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/library_downloader.cpp.o -c /home/shadowd/libfranka/libfranka/src/library_downloader.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/library_downloader.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/library_loader.cpp.o -c /home/shadowd/libfranka/libfranka/src/library_loader.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/library_loader.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/load_calculations.cpp.o -c /home/shadowd/libfranka/libfranka/src/load_calculations.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/load_calculations.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/log.cpp.o -c /home/shadowd/libfranka/libfranka/src/log.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/log.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/logger.cpp.o -c /home/shadowd/libfranka/libfranka/src/logger.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/logger.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/lowpass_filter.cpp.o -c /home/shadowd/libfranka/libfranka/src/lowpass_filter.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/lowpass_filter.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/model.cpp.o -c /home/shadowd/libfranka/libfranka/src/model.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/model.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/model_library.cpp.o -c /home/shadowd/libfranka/libfranka/src/model_library.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/model_library.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/network.cpp.o -c /home/shadowd/libfranka/libfranka/src/network.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/network.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/rate_limiting.cpp.o -c /home/shadowd/libfranka/libfranka/src/rate_limiting.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/rate_limiting.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/robot.cpp.o -c /home/shadowd/libfranka/libfranka/src/robot.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/robot.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/robot_impl.cpp.o -c /home/shadowd/libfranka/libfranka/src/robot_impl.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/robot_impl.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -Dfranka_EXPORTS -I/home/shadowd/libfranka/libfranka/include -I/home/shadowd/libfranka/libfranka/common/include -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/franka.dir/src/robot_state.cpp.o -c /home/shadowd/libfranka/libfranka/src/robot_state.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/src/robot_state.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/print_joint_poses.dir/print_joint_poses.cpp.o -c /home/shadowd/libfranka/libfranka/examples/print_joint_poses.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/print_joint_poses.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++  -DPOCO_NO_AUTOMATIC_LIBS -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/motion_with_control.dir/motion_with_control.cpp.o -c /home/shadowd/libfranka/libfranka/examples/motion_with_control.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/motion_with_control.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_elbow_motion.dir/generate_elbow_motion.cpp.o -c /home/shadowd/libfranka/libfranka/examples/generate_elbow_motion.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/generate_elbow_motion.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/grasp_object.dir/grasp_object.cpp.o -c /home/shadowd/libfranka/libfranka/examples/grasp_object.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/grasp_object.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/joint_point_to_point_motion.dir/joint_point_to_point_motion.cpp.o -c /home/shadowd/libfranka/libfranka/examples/joint_point_to_point_motion.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/joint_point_to_point_motion.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/cartesian_impedance_control.dir/cartesian_impedance_control.cpp.o -c /home/shadowd/libfranka/libfranka/examples/cartesian_impedance_control.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/cartesian_impedance_control.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/communication_test.dir/communication_test.cpp.o -c /home/shadowd/libfranka/libfranka/examples/communication_test.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/communication_test.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_joint_velocity_motion.dir/generate_joint_velocity_motion.cpp.o -c /home/shadowd/libfranka/libfranka/examples/generate_joint_velocity_motion.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/generate_joint_velocity_motion.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/echo_robot_state.dir/echo_robot_state.cpp.o -c /home/shadowd/libfranka/libfranka/examples/echo_robot_state.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/echo_robot_state.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/force_control.dir/force_control.cpp.o -c /home/shadowd/libfranka/libfranka/examples/force_control.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/force_control.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_cartesian_velocity_motion.dir/generate_cartesian_velocity_motion.cpp.o -c /home/shadowd/libfranka/libfranka/examples/generate_cartesian_velocity_motion.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/generate_cartesian_velocity_motion.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_cartesian_pose_motion.dir/generate_cartesian_pose_motion.cpp.o -c /home/shadowd/libfranka/libfranka/examples/generate_cartesian_pose_motion.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/generate_cartesian_pose_motion.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_joint_position_motion.dir/generate_joint_position_motion.cpp.o -c /home/shadowd/libfranka/libfranka/examples/generate_joint_position_motion.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/generate_joint_position_motion.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/examples_common.dir/examples_common.cpp.o -c /home/shadowd/libfranka/libfranka/examples/examples_common.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/examples_common.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_consecutive_motions.dir/generate_consecutive_motions.cpp.o -c /home/shadowd/libfranka/libfranka/examples/generate_consecutive_motions.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/generate_consecutive_motions.cpp"
+},
+{
+  "directory": "/home/shadowd/libfranka/libfranka/build/examples",
+  "command": "/usr/bin/c++   -I/home/shadowd/libfranka/libfranka/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -pthread -std=gnu++14 -o CMakeFiles/joint_impedance_control.dir/joint_impedance_control.cpp.o -c /home/shadowd/libfranka/libfranka/examples/joint_impedance_control.cpp",
+  "file": "/home/shadowd/libfranka/libfranka/examples/joint_impedance_control.cpp"
+}
+]

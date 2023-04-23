@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/motion_with_control.dir/motion_with_control.cpp.o  -o motion_with_control  -Wl,-rpath,/home/shadowd/libfranka/libfranka/build: libexamples_common.a ../libfranka.so.0.7.1 /usr/lib/x86_64-linux-gnu/libPocoFoundation.so.62 -lpthread -ldl -lrt /usr/lib/x86_64-linux-gnu/libpcre.so /usr/lib/x86_64-linux-gnu/libz.so 

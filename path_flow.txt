@@ -1,0 +1,18 @@
+
+
+demo_gazebo.launch  in ws_panda
+
+    (find franka_gazebo)/launch/panda.launch                                           >>>>>               /opt/ros/noetic/share/franka_gazebo
+
+        (find gazebo_ros)/launch/empty_world.launch             >>>>>>>>            /opt/ros/noetic/share/gazebo_ros
+
+            worlds/empty.world   >>>>>>>>>> gazebo's folder    change to empty_1_0_world.launch      worlds/empty_1_0.world  
+
+        (find franka_description)/robots/panda/panda.urdf.xacro      >>>>>>>>>>>   /opt/ros/noetic/share/franka_description
+            (find franka_description)/robots/common/franka_robot.xacro"
+            find franka_description)/robots/panda/joint_limits.yaml'
+
+
+        (find franka_example_controllers)/launch/rviz/franka_description_with_marker.rviz    >>>>>>>>       /opt/ros/noetic/share/franka_example_controllers
+
+

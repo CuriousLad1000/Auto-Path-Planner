@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/print_joint_poses.dir/print_joint_poses.cpp.o  -o print_joint_poses  -Wl,-rpath,/home/shadowd/libfranka/libfranka/build: libexamples_common.a ../libfranka.so.0.7.1 

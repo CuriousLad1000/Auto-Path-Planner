@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: moveit_resources_panda_description
+    relative_path: urdf/panda_arm_hand.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/panda.srdf
+  CONFIG:
+    author_name: MoveIt maintainer team
+    author_email: moveit_releasers@googlegroups.com
+    generated_timestamp: 1636098631
