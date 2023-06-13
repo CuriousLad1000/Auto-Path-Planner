@@ -25,7 +25,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/white</name>
+            <name>Gazebo/Yellow</name>
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
         </material>
