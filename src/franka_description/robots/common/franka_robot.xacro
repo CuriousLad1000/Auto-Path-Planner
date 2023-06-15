@@ -16,6 +16,13 @@
 
     <xacro:franka_arm arm_id="${arm_id}" safety_distance="0.03" gazebo="$(arg gazebo)" joint_limits="${joint_limits}"/>
 
+    <!-- ADD REALSENSE D435 SENSOR HERE!!! -->
+    <xacro:property name="PI" value="3.1415926535897931"/>
+    <xacro:include filename="$(find franka_description)/robots/common/_d435.urdf.xacro" />
+    <xacro:sensor_d435 parent="${arm_id}_hand"><!-- <xacro:sensor_d435 parent="${arm_id}_hand_tcp"> --> 
+          <origin xyz="0.10 0.0 0.0" rpy="0 ${-PI/2} 0" /> <!--  <origin xyz="-0.015 0 0.025" rpy="${PI} ${-PI/2} 0" />  <origin xyz="0.05 0 -0.14" rpy="${PI} ${-PI/2} 0" /> --> 
+    </xacro:sensor_d435>
+
     <xacro:if value="$(arg hand)">
       <xacro:include filename="$(find franka_description)/robots/common/franka_hand.xacro"/>
       <xacro:franka_hand
