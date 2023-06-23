@@ -18,10 +18,10 @@ def Cluster_selection_gui(dat):
 
     buttons_layout = [
         [sg.Text("Buttons",size=(40, 1))],
-        [ sg.Button(button_text = "Cancel",enable_events = True, 
+        [ sg.Button(button_text = "Cancel",enable_events = True, tooltip ='First Cluster will be auto-selected', 
                                      size = (8, 2),key = 'Cancel', image_source=None, 
                                      image_size = (None, None), image_subsample = None, ) ,
-         sg.Button(button_text = "OK",enable_events = True, 
+         sg.Button(button_text = "OK",enable_events = True, disabled = True, tooltip ='Select atleast one cluster',
                                      size = (8, 2),key = 'OK', image_source=None, 
                                      image_size = (None, None), image_subsample = None, ) ] #to put buttons in single row
                      ]
@@ -37,7 +37,7 @@ def Cluster_selection_gui(dat):
                 sg.Column(image_viewer_column), ] 
              ]
 
-    window = sg.Window("Image Viewer", layout)
+    window = sg.Window("Pointcloud Browser", layout)
 
     while True: # Run the Event Loop
         event, values = window.read()
@@ -49,7 +49,7 @@ def Cluster_selection_gui(dat):
             pass
 
         if event == "Cancel" or event == sg.WIN_CLOSED:
-            selected_PC = []
+            selected_PC = [0] #default
             break
 
         elif event_name == "but":
@@ -65,14 +65,20 @@ def Cluster_selection_gui(dat):
                 del_item = selected_PC.pop(available_index)
                 window["but"+str(event_idx)].update(text = "", image_data=dat[event_idx], image_subsample = 5)
                 selected_PC = sorted(selected_PC)
+                if len(selected_PC)==0:
+                    window['OK'].set_tooltip("Select atleast one cluster")
+                    window["OK"].update(disabled = True)
                 #print(selected_PC)
             else:
                 selected_PC.append(event_idx)
                 window["but"+str(event_idx)].update(text = "SELECTED",  image_subsample = 5)
+                window['OK'].set_tooltip("You may Proceed!")
+                window["OK"].update(disabled = False)               
                 selected_PC = sorted(selected_PC)
                 #print(selected_PC)
 
         elif event == "OK":
+
             #print("The current selection includes:",selected_PC)
             break
 
