@@ -6,8 +6,9 @@ my_input=sys.stdin.read()
 my_input = literal_eval(my_input)
 
 def Cluster_selection_gui(dat):
-
+    
     selected_PC = [] #will hold index values of selected point clouds.
+    selected_motion = 0  #default auto
 
     file_list_column = [[sg.Text("Select all valid Clusters"),]]
     for i in range (len(dat)):
@@ -17,14 +18,29 @@ def Cluster_selection_gui(dat):
                                      image_size = (None, None), image_subsample = 5, )] )
 
     buttons_layout = [
-        [sg.Text("Buttons",size=(40, 1))],
-        [ sg.Button(button_text = "Cancel",enable_events = True, tooltip ='First Cluster will be auto-selected', 
-                                     size = (8, 2),key = 'Cancel', image_source=None, 
+        [sg.Radio(text = "Auto select motion Path",default = True, enable_events = True, 
+                  tooltip ='Program will decide motion Path',key = 'Rad_Auto',
+                  auto_size_text = True, group_id=0, pad = ((5, 0), (0, 8)))],
+        
+        [sg.Radio(text = "Motion along X-axis",default = False, enable_events = True, 
+                  tooltip ='Program will decide motion Path',key = 'Rad_X',
+                  auto_size_text = True, group_id=0 )],
+        
+        [sg.Radio(text = "Motion along Y-axis",default = False, enable_events = True, 
+                  tooltip ='Program will decide motion Path',key = 'Rad_Y',
+                  auto_size_text = True, group_id=0 ),          
+         sg.Button(button_text = "Cancel",enable_events = True, tooltip ='First Cluster will be auto-selected', 
+                                     size = (10, 2),key = 'Cancel', image_source=None,
+                                     pad = ((60, 0), (0, 0)), 
                                      image_size = (None, None), image_subsample = None, ) ,
          sg.Button(button_text = "OK",enable_events = True, disabled = True, tooltip ='Select atleast one cluster',
-                                     size = (8, 2),key = 'OK', image_source=None, 
-                                     image_size = (None, None), image_subsample = None, ) ] #to put buttons in single row
-                     ]
+                                     size = (10, 2),key = 'OK', image_source=None,
+                                     pad = ((20, 0), (0, 0)),
+                                     image_size = (None, None), image_subsample = None )]
+                 ]
+    
+    
+    
     image_viewer_column = [
         [sg.Text("Preview")],
         [sg.Text(size=(40, 1), key="-TOUT-")],
@@ -50,7 +66,15 @@ def Cluster_selection_gui(dat):
 
         if event == "Cancel" or event == sg.WIN_CLOSED:
             selected_PC = [0] #default
+            selected_motion = 0 #default
             break
+
+        elif event == "Rad_Auto":
+            selected_motion = 0 #default
+        elif event == "Rad_X":  #curve along Y-axis and motion along X axis
+            selected_motion = 2 
+        elif event == "Rad_Y":  #curve along X-axis and motion along Y axis
+            selected_motion = 3 
 
         elif event_name == "but":
             try:
@@ -84,7 +108,7 @@ def Cluster_selection_gui(dat):
 
     window.close()
 
-    return selected_PC
+    return selected_PC,selected_motion
 
 new_one = Cluster_selection_gui(my_input)
 print(new_one)
