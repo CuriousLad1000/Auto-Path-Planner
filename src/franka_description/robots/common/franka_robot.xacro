@@ -20,7 +20,7 @@
     <xacro:property name="PI" value="3.1415926535897931"/>
     <xacro:include filename="$(find franka_description)/robots/common/_d435.urdf.xacro" />
     <xacro:sensor_d435 parent="${arm_id}_hand"><!-- <xacro:sensor_d435 parent="${arm_id}_hand_tcp"> --> 
-      <origin xyz="0.1 0.0 0.0" rpy="${PI} ${-PI/2} 0" /> <!-- coordinates wrt parent link  <origin xyz="-0.015 0 0.025" rpy="${PI} ${-PI/2} 0" />  <origin xyz="0.05 0 -0.14" rpy="${PI} ${-PI/2} 0" /> --> 
+      <origin xyz="0.045 0.0 -0.035" rpy="${PI} ${-PI/2} 0" /> <!-- coordinates wrt parent link  <origin xyz="-0.015 0 0.025" rpy="${PI} ${-PI/2} 0" />  <origin xyz="0.05 0 -0.14" rpy="${PI} ${-PI/2} 0" /> --> 
     </xacro:sensor_d435>
 
     <xacro:if value="$(arg hand)">
