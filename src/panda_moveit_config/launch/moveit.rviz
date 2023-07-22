@@ -5,7 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /MotionPlanning1/Planning Metrics1
+        - /MotionPlanning1
         - /DepthCloud1
         - /DepthCloud1/Auto Size1
         - /DepthCloud1/Occlusion Compensation1
@@ -32,7 +32,7 @@ Visualization Manager:
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
-      Enabled: false
+      Enabled: true
       Line Style:
         Line Width: 0.029999999329447746
         Value: Lines
@@ -45,7 +45,7 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
-      Value: false
+      Value: true
     - Acceleration_Scaling_Factor: 0.1
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
@@ -244,7 +244,7 @@ Visualization Manager:
         Goal State Color: 250; 128; 0
         Interactive Marker Size: 0
         Joint Violation Color: 255; 0; 255
-        Planning Group: panda_arm
+        Planning Group: panda_manipulator
         Query Goal State: false
         Query Start State: false
         Show Workspace: false
@@ -433,7 +433,7 @@ Visualization Manager:
       Color Transformer: RGB8
       Color Transport Hint: raw
       Decay Time: 0
-      Depth Map Topic: /camera/aligned_depth_to_color/image_raw
+      Depth Map Topic: /camera/depth/image_raw
       Depth Map Transport Hint: raw
       Enabled: true
       Invert Rainbow: false
@@ -546,7 +546,7 @@ Visualization Manager:
       Marker Alpha: 1
       Marker Scale: 0.5
       Name: TF
-      Show Arrows: true
+      Show Arrows: false
       Show Axes: true
       Show Names: false
       Tree:
@@ -657,7 +657,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.414187431335449
+      Distance: 4.187697410583496
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -665,17 +665,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.75
       Focal Point:
-        X: 0.4602583646774292
-        Y: 0.08560820668935776
-        Z: 0.26361358165740967
+        X: -0.1938762664794922
+        Y: 0.3012882173061371
+        Z: 0.19217099249362946
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.2447969913482666
+      Pitch: 0.30479696393013
       Target Frame: panda_link0
-      Yaw: 4.9661865234375
+      Yaw: 5.796180725097656
     Saved: ~
 Window Geometry:
   Displays:
