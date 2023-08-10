@@ -2,3 +2,4 @@
 *.pyc
 src/Visual_Inspection/.ipynb_checkpoints/*
 src/Visual_Inspection/VI_appdata/Saved_coordinates/*
+src/Visual_Inspection/__pycache__/*
