@@ -23,11 +23,11 @@ def Cluster_selection_gui(dat):
                   auto_size_text = True, group_id=0, pad = ((5, 0), (0, 8)))],
         
         [sg.Radio(text = "Motion along X-axis",default = False, enable_events = True, 
-                  tooltip ='Program will decide motion Path',key = 'Rad_X',
+                  tooltip ="Robot's motion along the camera's X axis",key = 'Rad_X',
                   auto_size_text = True, group_id=0 )],
         
         [sg.Radio(text = "Motion along Y-axis",default = False, enable_events = True, 
-                  tooltip ='Program will decide motion Path',key = 'Rad_Y',
+                  tooltip ="Robot's motion along the camera's Y axis",key = 'Rad_Y',
                   auto_size_text = True, group_id=0 ),          
          sg.Button(button_text = "Cancel",enable_events = True, tooltip ='First Cluster will be auto-selected', 
                                      size = (10, 2),key = 'Cancel', image_source=None,
