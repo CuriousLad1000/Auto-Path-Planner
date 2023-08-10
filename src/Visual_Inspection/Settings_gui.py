@@ -30,16 +30,15 @@ def Settings_gui(data):
     TGT_reverse = data[14] #True
     TGT_preview = data[15] #True
     z_offset = data[16] #0.3
-    coord_skip = data[17] #3
+    coord_skip = data[17] #1
     TGT_motion_delay = data[18] #0.1
     TGT_save = data[19] #True
+    Dbug = data[20] #False
 
     font_small = ("gothic", 12)
     font_heading = ("gothic", 14)
 
     text_layout = [[sg.Text("Point Cloud Settings", size=(60, 2), font=font_heading)],
-
-
 
 
                    [sg.Text("Number of pointcloud samples:", size=(60, 1), auto_size_text = True 
@@ -144,10 +143,11 @@ def Settings_gui(data):
                    [sg.Text("Save Targets?", size=(60, 1), auto_size_text = True , font=font_small, expand_y=True)
                     , sg.Checkbox("", default = TGT_save, key ="TGT_save",pad=((0, 0),(0,5))
                   , tooltip = "Save Generated Targets for later use.")], 
-
+                   
+                   [sg.Text("Debug Mode?", size=(60, 1), auto_size_text = True , font=font_small, expand_y=True)
+                    , sg.Checkbox("", default = Dbug, key ="Dbug",pad=((0, 0),(0,5))
+                  , tooltip = "Setting this will show all generated point clouds, images and steps.")],
                   ]
-
-
 
 
     buttons_layout = [[sg.Button(button_text = "Cancel",enable_events = True, tooltip ='Exit the program without saving changes.', 
@@ -187,7 +187,7 @@ def Settings_gui(data):
             break
 
         elif event == "Save":
-            selected_option = 1  #Saving flag
+            selected_option = 1
             samples = window["PCD_Samples"].get()
             spacing = window["PCD_spacing"].get()
             offset_y = window["PCD_offset_y"].get()
@@ -208,7 +208,7 @@ def Settings_gui(data):
             coord_skip = window["TGT_coord_skip"].get()
             TGT_motion_delay = window["TGT_motion_delay"].get()
             TGT_save = window["TGT_save"].get()
-
+            Dbug = window["Dbug"].get()
 
             break
 
@@ -227,7 +227,7 @@ def Settings_gui(data):
     window.close()
 
 
-    return selected_option, samples,spacing,offset_y,offset_z,trim_base,manual_offset,Cluster_centered,Cluster_idx,Cluster_discard,eps,min_points,Cluster_trim,TGT_coord_Samples,TGT_final_trim,TGT_reverse,TGT_preview,z_offset,coord_skip,TGT_motion_delay,TGT_save
+    return selected_option, samples,spacing,offset_y,offset_z,trim_base,manual_offset,Cluster_centered,Cluster_idx,Cluster_discard,eps,min_points,Cluster_trim,TGT_coord_Samples,TGT_final_trim,TGT_reverse,TGT_preview,z_offset,coord_skip,TGT_motion_delay,TGT_save,Dbug
 
 
 new_OP = Settings_gui(my_input)

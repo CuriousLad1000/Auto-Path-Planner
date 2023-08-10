@@ -6,11 +6,12 @@ my_input=sys.stdin.read()
 my_input = literal_eval(my_input)
 
 
-def manual_gui(dat,loaded_manual_offset):
+def manual_gui(dat,loaded_manual_offset,TGT_save):
     font_small = ("gothic", 12)
     font_heading = ("gothic", 14)
     selected_mode = 0 #will determine the initial pose of the robot
     man_offset = 0.0 
+    Exit_flag = 0
     desc = ["Default robot pose with camera facing down towards the object",
             "Robot extended to the highest point and camera facing down towards the object.",
             "Robot facing forward and camera at a very low position. Object right in front of the robot.",
@@ -44,7 +45,10 @@ def manual_gui(dat,loaded_manual_offset):
                             , font=font_small, expand_y=True), sg.Input(default_text = 0.0, 
                          size=(10, 1),key = "manual_offset",tooltip = "(in Meters)",disabled = True )],
         
-        [],
+        [sg.Text("", size=(38, 1), auto_size_text = True , font=font_small, expand_y=True), 
+         sg.Text("Save Targets?", size=(13, 1), auto_size_text = True , font=font_small, expand_y=True)
+                    , sg.Checkbox("", default = TGT_save, key ="TGT_save",pad=((0, 0),(0,5))
+                  , tooltip = "Save Generated Targets for later use.")],
         
         [sg.Button(button_text = "Cancel",enable_events = True, tooltip ='First Default pose will be auto-selected', 
                                      size = (10, 2),key = 'Cancel', image_source=None,
@@ -83,6 +87,7 @@ def manual_gui(dat,loaded_manual_offset):
 
         if event == "Cancel" or event == sg.WIN_CLOSED:
             selected_mode = 0 #default Panda pose
+            Exit_flag = 1 #EXIT
             break
 
         elif event_name == "but":
@@ -110,12 +115,14 @@ def manual_gui(dat,loaded_manual_offset):
         elif event == "OK":
             
             man_offset = window["manual_offset"].get()
+            TGT_save = window["TGT_save"].get()
+            
             #print("The current selection includes:",selected_mode)
             break
 
     window.close()
 
-    return selected_mode, man_offset
+    return selected_mode, man_offset, TGT_save,Exit_flag
 
-new_OP = manual_gui(my_input[0],my_input[1])
+new_OP = manual_gui(my_input[0],my_input[1],my_input[2])
 print(new_OP)
