@@ -127,6 +127,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_hand_tcp:
             Alpha: 1
             Show Axes: false
@@ -145,6 +146,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link1:
             Alpha: 1
             Show Axes: false
@@ -154,6 +156,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link2:
             Alpha: 1
             Show Axes: false
@@ -163,6 +166,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link3:
             Alpha: 1
             Show Axes: false
@@ -172,6 +176,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link4:
             Alpha: 1
             Show Axes: false
@@ -181,6 +186,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link5:
             Alpha: 1
             Show Axes: false
@@ -190,6 +196,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link6:
             Alpha: 1
             Show Axes: false
@@ -199,6 +206,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link7:
             Alpha: 1
             Show Axes: false
@@ -208,6 +216,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link8:
             Alpha: 1
             Show Axes: false
@@ -217,10 +226,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          world:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
         Loop Animation: false
         Robot Alpha: 1
         Robot Color: 150; 50; 150
@@ -317,6 +322,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_hand_tcp:
             Alpha: 1
             Show Axes: false
@@ -335,6 +341,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link1:
             Alpha: 1
             Show Axes: false
@@ -344,6 +351,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link2:
             Alpha: 1
             Show Axes: false
@@ -353,6 +361,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link3:
             Alpha: 1
             Show Axes: false
@@ -362,6 +371,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link4:
             Alpha: 1
             Show Axes: false
@@ -371,6 +381,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link5:
             Alpha: 1
             Show Axes: false
@@ -380,6 +391,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link6:
             Alpha: 1
             Show Axes: false
@@ -389,6 +401,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link7:
             Alpha: 1
             Show Axes: false
@@ -398,6 +411,7 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+            Value: true
           panda_link8:
             Alpha: 1
             Show Axes: false
@@ -407,10 +421,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          world:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
         Robot Alpha: 1
         Show Robot Collision: false
         Show Robot Visual: true
@@ -433,7 +443,7 @@ Visualization Manager:
       Color Transformer: RGB8
       Color Transport Hint: raw
       Decay Time: 0
-      Depth Map Topic: /camera/depth/image_raw
+      Depth Map Topic: /camera/depth/image_rect_raw
       Depth Map Transport Hint: raw
       Enabled: true
       Invert Rainbow: false
@@ -471,6 +481,38 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: false
+        Camera_Target_0:
+          Value: true
+        Camera_Target_1:
+          Value: true
+        Camera_Target_10:
+          Value: true
+        Camera_Target_11:
+          Value: true
+        Camera_Target_12:
+          Value: true
+        Camera_Target_13:
+          Value: true
+        Camera_Target_14:
+          Value: true
+        Camera_Target_2:
+          Value: true
+        Camera_Target_3:
+          Value: true
+        Camera_Target_4:
+          Value: true
+        Camera_Target_5:
+          Value: true
+        Camera_Target_6:
+          Value: true
+        Camera_Target_7:
+          Value: true
+        Camera_Target_8:
+          Value: true
+        Camera_Target_9:
+          Value: true
+        camera_aligned_depth_to_color_frame:
+          Value: false
         camera_bottom_screw_frame:
           Value: false
         camera_color_frame:
@@ -541,6 +583,8 @@ Visualization Manager:
           Value: false
         panda_rightfinger:
           Value: false
+        plane_static_0:
+          Value: false
         world:
           Value: true
       Marker Alpha: 1
@@ -551,6 +595,36 @@ Visualization Manager:
       Show Names: false
       Tree:
         world:
+          Camera_Target_0:
+            {}
+          Camera_Target_1:
+            {}
+          Camera_Target_10:
+            {}
+          Camera_Target_11:
+            {}
+          Camera_Target_12:
+            {}
+          Camera_Target_13:
+            {}
+          Camera_Target_14:
+            {}
+          Camera_Target_2:
+            {}
+          Camera_Target_3:
+            {}
+          Camera_Target_4:
+            {}
+          Camera_Target_5:
+            {}
+          Camera_Target_6:
+            {}
+          Camera_Target_7:
+            {}
+          Camera_Target_8:
+            {}
+          Camera_Target_9:
+            {}
           panda_link0:
             panda_link0_sc:
               {}
@@ -583,12 +657,15 @@ Visualization Manager:
                             panda_hand:
                               camera_bottom_screw_frame:
                                 camera_link:
+                                  camera_aligned_depth_to_color_frame:
+                                    {}
                                   camera_depth_frame:
                                     camera_color_frame:
                                       camera_color_optical_frame:
                                         {}
                                     camera_depth_optical_frame:
-                                      {}
+                                      plane_static_0:
+                                        {}
                                     camera_left_ir_frame:
                                       camera_left_ir_optical_frame:
                                         {}
@@ -657,7 +734,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.7510313987731934
+      Distance: 1.828877568244934
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -665,17 +742,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.75
       Focal Point:
-        X: 0.27354100346565247
-        Y: 0.2661028206348419
-        Z: -0.19315510988235474
+        X: 0.4171329438686371
+        Y: 0.1865973025560379
+        Z: 0.08061874657869339
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5747968554496765
+      Pitch: 0.16979745030403137
       Target Frame: panda_link0
-      Yaw: 5.176163673400879
+      Yaw: 1.509764552116394
     Saved: ~
 Window Geometry:
   Displays:
@@ -691,7 +768,7 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000300000000000001f30000035afc0200000008fb000000100044006900730070006c006100790073010000003d000001cc000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a00560069006500770073000000010c000000a4000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067010000020f000001880000017d00fffffffb0000000c00430061006d006500720061000000028f00000108000000000000000000000001000001c20000035afc0200000001fb0000000a0049006d006100670065010000003d0000035a0000001600ffffff00000002000004d80000017bfc0100000001fb0000000c00430061006d00650072006100000001f9000005870000000000000000000003bf0000035a00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000300000000000001f30000035afc0200000008fb000000100044006900730070006c006100790073010000003d000001cc000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a00560069006500770073000000010c000000a4000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067010000020f000001880000017d00fffffffb0000000c00430061006d006500720061000000028f00000108000000000000000000000001000002820000035afc0200000001fb0000000a0049006d006100670065010000003d0000035a0000001600ffffff00000002000004d80000017bfc0100000001fb0000000c00430061006d00650072006100000001f9000005870000000000000000000002ff0000035a00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
   Width: 1920
