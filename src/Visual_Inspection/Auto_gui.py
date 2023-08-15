@@ -1,6 +1,8 @@
 import PySimpleGUI as sg
 import sys
 from ast import literal_eval
+import numpy as np
+
 
 my_input=sys.stdin.read()
 my_input = literal_eval(my_input)

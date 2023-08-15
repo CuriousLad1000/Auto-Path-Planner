@@ -25,7 +25,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Yellow</name>
+            <name>Gazebo/WoodPallet</name>
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
         </material>

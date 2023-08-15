@@ -32,7 +32,7 @@ Visualization Manager:
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
-      Enabled: true
+      Enabled: false
       Line Style:
         Line Width: 0.029999999329447746
         Value: Lines
@@ -45,7 +45,7 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
-      Value: true
+      Value: false
     - Acceleration_Scaling_Factor: 0.1
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
@@ -127,7 +127,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_hand_tcp:
             Alpha: 1
             Show Axes: false
@@ -146,7 +145,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link1:
             Alpha: 1
             Show Axes: false
@@ -156,7 +154,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link2:
             Alpha: 1
             Show Axes: false
@@ -166,7 +163,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link3:
             Alpha: 1
             Show Axes: false
@@ -176,7 +172,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link4:
             Alpha: 1
             Show Axes: false
@@ -186,7 +181,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link5:
             Alpha: 1
             Show Axes: false
@@ -196,7 +190,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link6:
             Alpha: 1
             Show Axes: false
@@ -206,7 +199,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link7:
             Alpha: 1
             Show Axes: false
@@ -216,7 +208,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link8:
             Alpha: 1
             Show Axes: false
@@ -226,6 +217,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
         Loop Animation: false
         Robot Alpha: 1
         Robot Color: 150; 50; 150
@@ -322,7 +317,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_hand_tcp:
             Alpha: 1
             Show Axes: false
@@ -341,7 +335,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link1:
             Alpha: 1
             Show Axes: false
@@ -351,7 +344,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link2:
             Alpha: 1
             Show Axes: false
@@ -361,7 +353,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link3:
             Alpha: 1
             Show Axes: false
@@ -371,7 +362,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link4:
             Alpha: 1
             Show Axes: false
@@ -381,7 +371,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link5:
             Alpha: 1
             Show Axes: false
@@ -391,7 +380,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link6:
             Alpha: 1
             Show Axes: false
@@ -401,7 +389,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link7:
             Alpha: 1
             Show Axes: false
@@ -411,7 +398,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-            Value: true
           panda_link8:
             Alpha: 1
             Show Axes: false
@@ -421,6 +407,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
         Robot Alpha: 1
         Show Robot Collision: false
         Show Robot Visual: true
@@ -443,7 +433,7 @@ Visualization Manager:
       Color Transformer: RGB8
       Color Transport Hint: raw
       Decay Time: 0
-      Depth Map Topic: /camera/depth/image_rect_raw
+      Depth Map Topic: /camera/depth/image_raw
       Depth Map Transport Hint: raw
       Enabled: true
       Invert Rainbow: false
@@ -487,6 +477,26 @@ Visualization Manager:
           Value: true
         Camera_Target_10:
           Value: true
+        Camera_Target_100:
+          Value: true
+        Camera_Target_101:
+          Value: true
+        Camera_Target_102:
+          Value: true
+        Camera_Target_103:
+          Value: true
+        Camera_Target_104:
+          Value: true
+        Camera_Target_105:
+          Value: true
+        Camera_Target_106:
+          Value: true
+        Camera_Target_107:
+          Value: true
+        Camera_Target_108:
+          Value: true
+        Camera_Target_109:
+          Value: true
         Camera_Target_11:
           Value: true
         Camera_Target_12:
@@ -495,24 +505,192 @@ Visualization Manager:
           Value: true
         Camera_Target_14:
           Value: true
+        Camera_Target_15:
+          Value: true
+        Camera_Target_16:
+          Value: true
+        Camera_Target_17:
+          Value: true
+        Camera_Target_18:
+          Value: true
+        Camera_Target_19:
+          Value: true
         Camera_Target_2:
+          Value: true
+        Camera_Target_20:
+          Value: true
+        Camera_Target_21:
+          Value: true
+        Camera_Target_22:
+          Value: true
+        Camera_Target_23:
+          Value: true
+        Camera_Target_24:
+          Value: true
+        Camera_Target_25:
+          Value: true
+        Camera_Target_26:
+          Value: true
+        Camera_Target_27:
+          Value: true
+        Camera_Target_28:
+          Value: true
+        Camera_Target_29:
           Value: true
         Camera_Target_3:
           Value: true
+        Camera_Target_30:
+          Value: true
+        Camera_Target_31:
+          Value: true
+        Camera_Target_32:
+          Value: true
+        Camera_Target_33:
+          Value: true
+        Camera_Target_34:
+          Value: true
+        Camera_Target_35:
+          Value: true
+        Camera_Target_36:
+          Value: true
+        Camera_Target_37:
+          Value: true
+        Camera_Target_38:
+          Value: true
+        Camera_Target_39:
+          Value: true
         Camera_Target_4:
+          Value: true
+        Camera_Target_40:
+          Value: true
+        Camera_Target_41:
+          Value: true
+        Camera_Target_42:
+          Value: true
+        Camera_Target_43:
+          Value: true
+        Camera_Target_44:
+          Value: true
+        Camera_Target_45:
+          Value: true
+        Camera_Target_46:
+          Value: true
+        Camera_Target_47:
+          Value: true
+        Camera_Target_48:
+          Value: true
+        Camera_Target_49:
           Value: true
         Camera_Target_5:
           Value: true
+        Camera_Target_50:
+          Value: true
+        Camera_Target_51:
+          Value: true
+        Camera_Target_52:
+          Value: true
+        Camera_Target_53:
+          Value: true
+        Camera_Target_54:
+          Value: true
+        Camera_Target_55:
+          Value: true
+        Camera_Target_56:
+          Value: true
+        Camera_Target_57:
+          Value: true
+        Camera_Target_58:
+          Value: true
+        Camera_Target_59:
+          Value: true
         Camera_Target_6:
+          Value: true
+        Camera_Target_60:
+          Value: true
+        Camera_Target_61:
+          Value: true
+        Camera_Target_62:
+          Value: true
+        Camera_Target_63:
+          Value: true
+        Camera_Target_64:
+          Value: true
+        Camera_Target_65:
+          Value: true
+        Camera_Target_66:
+          Value: true
+        Camera_Target_67:
+          Value: true
+        Camera_Target_68:
+          Value: true
+        Camera_Target_69:
           Value: true
         Camera_Target_7:
           Value: true
+        Camera_Target_70:
+          Value: true
+        Camera_Target_71:
+          Value: true
+        Camera_Target_72:
+          Value: true
+        Camera_Target_73:
+          Value: true
+        Camera_Target_74:
+          Value: true
+        Camera_Target_75:
+          Value: true
+        Camera_Target_76:
+          Value: true
+        Camera_Target_77:
+          Value: true
+        Camera_Target_78:
+          Value: true
+        Camera_Target_79:
+          Value: true
         Camera_Target_8:
+          Value: true
+        Camera_Target_80:
+          Value: true
+        Camera_Target_81:
+          Value: true
+        Camera_Target_82:
+          Value: true
+        Camera_Target_83:
+          Value: true
+        Camera_Target_84:
+          Value: true
+        Camera_Target_85:
+          Value: true
+        Camera_Target_86:
+          Value: true
+        Camera_Target_87:
+          Value: true
+        Camera_Target_88:
+          Value: true
+        Camera_Target_89:
           Value: true
         Camera_Target_9:
           Value: true
-        camera_aligned_depth_to_color_frame:
-          Value: false
+        Camera_Target_90:
+          Value: true
+        Camera_Target_91:
+          Value: true
+        Camera_Target_92:
+          Value: true
+        Camera_Target_93:
+          Value: true
+        Camera_Target_94:
+          Value: true
+        Camera_Target_95:
+          Value: true
+        Camera_Target_96:
+          Value: true
+        Camera_Target_97:
+          Value: true
+        Camera_Target_98:
+          Value: true
+        Camera_Target_99:
+          Value: true
         camera_bottom_screw_frame:
           Value: false
         camera_color_frame:
@@ -601,6 +779,26 @@ Visualization Manager:
             {}
           Camera_Target_10:
             {}
+          Camera_Target_100:
+            {}
+          Camera_Target_101:
+            {}
+          Camera_Target_102:
+            {}
+          Camera_Target_103:
+            {}
+          Camera_Target_104:
+            {}
+          Camera_Target_105:
+            {}
+          Camera_Target_106:
+            {}
+          Camera_Target_107:
+            {}
+          Camera_Target_108:
+            {}
+          Camera_Target_109:
+            {}
           Camera_Target_11:
             {}
           Camera_Target_12:
@@ -609,21 +807,191 @@ Visualization Manager:
             {}
           Camera_Target_14:
             {}
+          Camera_Target_15:
+            {}
+          Camera_Target_16:
+            {}
+          Camera_Target_17:
+            {}
+          Camera_Target_18:
+            {}
+          Camera_Target_19:
+            {}
           Camera_Target_2:
+            {}
+          Camera_Target_20:
+            {}
+          Camera_Target_21:
+            {}
+          Camera_Target_22:
+            {}
+          Camera_Target_23:
+            {}
+          Camera_Target_24:
+            {}
+          Camera_Target_25:
+            {}
+          Camera_Target_26:
+            {}
+          Camera_Target_27:
+            {}
+          Camera_Target_28:
+            {}
+          Camera_Target_29:
             {}
           Camera_Target_3:
             {}
+          Camera_Target_30:
+            {}
+          Camera_Target_31:
+            {}
+          Camera_Target_32:
+            {}
+          Camera_Target_33:
+            {}
+          Camera_Target_34:
+            {}
+          Camera_Target_35:
+            {}
+          Camera_Target_36:
+            {}
+          Camera_Target_37:
+            {}
+          Camera_Target_38:
+            {}
+          Camera_Target_39:
+            {}
           Camera_Target_4:
+            {}
+          Camera_Target_40:
+            {}
+          Camera_Target_41:
+            {}
+          Camera_Target_42:
+            {}
+          Camera_Target_43:
+            {}
+          Camera_Target_44:
+            {}
+          Camera_Target_45:
+            {}
+          Camera_Target_46:
+            {}
+          Camera_Target_47:
+            {}
+          Camera_Target_48:
+            {}
+          Camera_Target_49:
             {}
           Camera_Target_5:
             {}
+          Camera_Target_50:
+            {}
+          Camera_Target_51:
+            {}
+          Camera_Target_52:
+            {}
+          Camera_Target_53:
+            {}
+          Camera_Target_54:
+            {}
+          Camera_Target_55:
+            {}
+          Camera_Target_56:
+            {}
+          Camera_Target_57:
+            {}
+          Camera_Target_58:
+            {}
+          Camera_Target_59:
+            {}
           Camera_Target_6:
+            {}
+          Camera_Target_60:
+            {}
+          Camera_Target_61:
+            {}
+          Camera_Target_62:
+            {}
+          Camera_Target_63:
+            {}
+          Camera_Target_64:
+            {}
+          Camera_Target_65:
+            {}
+          Camera_Target_66:
+            {}
+          Camera_Target_67:
+            {}
+          Camera_Target_68:
+            {}
+          Camera_Target_69:
             {}
           Camera_Target_7:
             {}
+          Camera_Target_70:
+            {}
+          Camera_Target_71:
+            {}
+          Camera_Target_72:
+            {}
+          Camera_Target_73:
+            {}
+          Camera_Target_74:
+            {}
+          Camera_Target_75:
+            {}
+          Camera_Target_76:
+            {}
+          Camera_Target_77:
+            {}
+          Camera_Target_78:
+            {}
+          Camera_Target_79:
+            {}
           Camera_Target_8:
             {}
+          Camera_Target_80:
+            {}
+          Camera_Target_81:
+            {}
+          Camera_Target_82:
+            {}
+          Camera_Target_83:
+            {}
+          Camera_Target_84:
+            {}
+          Camera_Target_85:
+            {}
+          Camera_Target_86:
+            {}
+          Camera_Target_87:
+            {}
+          Camera_Target_88:
+            {}
+          Camera_Target_89:
+            {}
           Camera_Target_9:
+            {}
+          Camera_Target_90:
+            {}
+          Camera_Target_91:
+            {}
+          Camera_Target_92:
+            {}
+          Camera_Target_93:
+            {}
+          Camera_Target_94:
+            {}
+          Camera_Target_95:
+            {}
+          Camera_Target_96:
+            {}
+          Camera_Target_97:
+            {}
+          Camera_Target_98:
+            {}
+          Camera_Target_99:
             {}
           panda_link0:
             panda_link0_sc:
@@ -657,8 +1025,6 @@ Visualization Manager:
                             panda_hand:
                               camera_bottom_screw_frame:
                                 camera_link:
-                                  camera_aligned_depth_to_color_frame:
-                                    {}
                                   camera_depth_frame:
                                     camera_color_frame:
                                       camera_color_optical_frame:
@@ -734,7 +1100,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.828877568244934
+      Distance: 2.401243209838867
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -742,33 +1108,33 @@ Visualization Manager:
         Value: false
       Field of View: 0.75
       Focal Point:
-        X: 0.4171329438686371
-        Y: 0.1865973025560379
-        Z: 0.08061874657869339
+        X: 0.04750804603099823
+        Y: -0.1850668489933014
+        Z: 0.5975762605667114
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.16979745030403137
+      Pitch: 0.819797694683075
       Target Frame: panda_link0
-      Yaw: 1.509764552116394
+      Yaw: 0.3647598624229431
     Saved: ~
 Window Geometry:
   Displays:
-    collapsed: false
+    collapsed: true
   Height: 948
   Help:
     collapsed: false
-  Hide Left Dock: false
+  Hide Left Dock: true
   Hide Right Dock: false
   Image:
     collapsed: false
   MotionPlanning:
-    collapsed: false
+    collapsed: true
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000300000000000001f30000035afc0200000008fb000000100044006900730070006c006100790073010000003d000001cc000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a00560069006500770073000000010c000000a4000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067010000020f000001880000017d00fffffffb0000000c00430061006d006500720061000000028f00000108000000000000000000000001000002820000035afc0200000001fb0000000a0049006d006100670065010000003d0000035a0000001600ffffff00000002000004d80000017bfc0100000001fb0000000c00430061006d00650072006100000001f9000005870000000000000000000002ff0000035a00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000300000000000001f30000035afc0200000008fb000000100044006900730070006c006100790073000000003d000001cc000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a00560069006500770073000000010c000000a4000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067000000020f000001880000017d00fffffffb0000000c00430061006d006500720061000000028f00000108000000000000000000000001000002800000035afc0200000001fb0000000a0049006d006100670065010000003d0000035a0000001600ffffff00000002000004d80000017bfc0100000001fb0000000c00430061006d00650072006100000001f9000005870000000000000000000004fa0000035a00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
   Width: 1920
