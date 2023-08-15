@@ -34,14 +34,16 @@ def Auto_gui(dat,loaded_manual_offset,TGT_save):
     
     
     file_list_column = [[sg.Text("Select a Pose that best describes your case.", font=font_heading),]]
-    for i in range (0,len(dat),2):
-        #print(i)
+    for i in range(0, int(np.ceil(len(dat)/2)) ):
+        
         file_list_column.append( [sg.Button(button_text = "",enable_events = True, 
-                                     size = (16, 4),key = 'but'+str(i), image_source=dat[i], 
-                                     image_size = (None, None), image_subsample = 5, ), 
-                                  sg.Button(button_text = "",enable_events = True, 
-                                     size = (16, 4),key = 'but'+str(i+1), image_source=dat[i+1], 
-                                     image_size = (None, None), image_subsample = 5, )] )
+                                 size = (16, 4),key = 'but'+str(i+i), image_source=dat[i+i], 
+                                 image_size = (None, None), image_subsample = 5, )] )
+ 
+        if (i+i+1)<len(dat): #logic to add second column
+            file_list_column[i+1].append( sg.Button(button_text = "",enable_events = True, 
+                                         size = (16, 4),key = 'but'+str(i+i+1), image_source=dat[i+i+1], 
+                                         image_size = (None, None), image_subsample = 5, ))
 
     
     buttons_layout = [

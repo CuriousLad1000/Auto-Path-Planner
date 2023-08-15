@@ -40,8 +40,13 @@ def Replay_gui(file_path, X_offset, Y_offset, Z_offset, TGT_save):
         
         [sg.Button(button_text = "Cancel",enable_events = True, tooltip ='Cancel', 
                                      size = (10, 2),key = 'Cancel', image_source=None,
-                                     pad = ((45, 0), (0, 0)), 
+                                     pad = ((0, 0), (0, 0)), 
                                      image_size = (None, None), image_subsample = None, ) ,
+         
+         sg.Button(button_text = "Set Initial Pose",enable_events = True, disabled = False, tooltip ='Set initial pose of Robot',
+                                    size = (10, 2),key = 'init_pose', image_source=None,
+                                     pad = ((20, 0), (0, 0)),
+                                     image_size = (None, None), image_subsample = None ),
          
          sg.Button(button_text = "Preview",enable_events = True, disabled = True, tooltip ='Preview in Rviz',
                                      size = (10, 2),key = 'Preview', image_source=None,
@@ -63,7 +68,7 @@ def Replay_gui(file_path, X_offset, Y_offset, Z_offset, TGT_save):
              ]
 
     window = sg.Window("Replay Mode: Coordinate Selector.", layout)
-    window.timer_start(800, key='timer', repeating=False) #used to refresh events
+    window.timer_start(200, key='timer', repeating=False) #used to refresh events
     
     event, values = window.read()
     file_path = window["file_path"].get()    
@@ -96,11 +101,21 @@ def Replay_gui(file_path, X_offset, Y_offset, Z_offset, TGT_save):
                 window["Preview"].update(disabled = False)
                 window["OK"].update(disabled = False)
         
+        elif event == "init_pose":
+            
+            OK_flag = 2 #set initial pose
+            
+            file_path = window["file_path"].get()
+            X_offset = window["X_offset"].get()
+            Y_offset = window["Y_offset"].get()
+            Z_offset = window["Z_offset"].get()
+            TGT_save = window["TGT_save"].get()
+            
+            break
         
-        elif event == "Preview" or event == sg.WIN_CLOSED:
-            
+        elif event == "Preview":
             OK_flag = 0 #preview flag
-            
+
             file_path = window["file_path"].get()
             X_offset = window["X_offset"].get()
             Y_offset = window["Y_offset"].get()

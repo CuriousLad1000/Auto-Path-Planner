@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 import sys
 from ast import literal_eval
+import numpy as np
 
 my_input=sys.stdin.read()
 my_input = literal_eval(my_input)
@@ -24,21 +25,27 @@ def manual_gui(dat,loaded_manual_offset,TGT_save):
             "Robot and camera looking towards RIGHT at a HIGHER position. Object NOT ALIGNED to robot's base. Manual offset required (Horizontal Distance between robot's base and object).",
             "Robot EXTENDED and camera looking towards RIGHT at a LOW position. Object is aligned to robot's base (Horizontal distance is 0).",
             "Robot EXTENDED and camera looking towards RIGHT at a HIGHER position. Object is aligned to robot's base (Horizontal distance is 0).",
+            "Robot will work with current pose. This is useful if the operator wants to set pose of robot manually in HRC mode.",
+            
            ]
     
     while len(desc) < len(dat):
         desc.append("N/A") #add empty descriptions if more imgs added.
     
-    
     file_list_column = [[sg.Text("Select a Pose that best describes your case.", font=font_heading),]]
-    for i in range (0,len(dat),2):
-        #print(i)
+    
+    
+    for i in range(0, int(np.ceil(len(dat)/2)) ):
+        
         file_list_column.append( [sg.Button(button_text = "",enable_events = True, 
-                                     size = (16, 4),key = 'but'+str(i), image_source=dat[i], 
-                                     image_size = (None, None), image_subsample = 5, ), 
-                                  sg.Button(button_text = "",enable_events = True, 
-                                     size = (16, 4),key = 'but'+str(i+1), image_source=dat[i+1], 
-                                     image_size = (None, None), image_subsample = 5, )] )
+                                 size = (16, 4),key = 'but'+str(i+i), image_source=dat[i+i], 
+                                 image_size = (None, None), image_subsample = 5, )] )
+ 
+        if (i+i+1)<len(dat): #logic to add second column
+            file_list_column[i+1].append( sg.Button(button_text = "",enable_events = True, 
+                                         size = (16, 4),key = 'but'+str(i+i+1), image_source=dat[i+i+1], 
+                                         image_size = (None, None), image_subsample = 5, ))
+    
 
     buttons_layout = [
         [sg.Text("Enter Horizontal distance between robot's base and the Object:", size=(53, 1)
@@ -59,7 +66,6 @@ def manual_gui(dat,loaded_manual_offset,TGT_save):
                                      pad = ((20, 0), (0, 0)),
                                      image_size = (None, None), image_subsample = None )]
                  ]
-    
     
     
     image_viewer_column = [
@@ -122,7 +128,7 @@ def manual_gui(dat,loaded_manual_offset,TGT_save):
 
     window.close()
 
-    return selected_mode, man_offset, TGT_save,Exit_flag
+    return selected_mode, float(man_offset), TGT_save,Exit_flag
 
 new_OP = manual_gui(my_input[0],my_input[1],my_input[2])
 print(new_OP)
