@@ -4,3 +4,13 @@ src/Visual_Inspection/.ipynb_checkpoints/*
 src/Visual_Inspection/VI_appdata/Saved_coordinates/*
 src/Visual_Inspection/__pycache__/*
 src/Visual_Inspection/VI_appdata/Saved_coordinates_phy/*
+.catkin_tools
+build/
+devel/
+logs/
+.catkin_workspace
+src/moveit/
+src/moveit_resources/
+src/moveit_tutorials/
+src/moveit_visual_tools/
+src/panda_moveit_config/

@@ -1,2 +1,0 @@
-# Disable all checks as we don't have control about the generated ikfast code
-Checks:          '-*,clang-analyzer-unix.API'
