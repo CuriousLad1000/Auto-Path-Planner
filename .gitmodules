@@ -4,24 +4,9 @@
 [submodule "src/libfranka/libfranka/zz2"]
 	path = src/libfranka/libfranka/zz2
 	url = ./src/libfranka/libfranka/zz2
-[submodule "src/moveit"]
-	path = src/moveit
-	url = ./src/moveit
 [submodule "src/moveit_msgs"]
 	path = src/moveit_msgs
 	url = ./src/moveit_msgs
-[submodule "src/moveit_resources"]
-	path = src/moveit_resources
-	url = ./src/moveit_resources
-[submodule "src/moveit_tutorials"]
-	path = src/moveit_tutorials
-	url = ./src/moveit_tutorials
-[submodule "src/moveit_visual_tools"]
-	path = src/moveit_visual_tools
-	url = ./src/moveit_visual_tools
-[submodule "src/panda_moveit_config"]
-	path = src/panda_moveit_config
-	url = ./src/panda_moveit_config
 [submodule "src/realsense-ros/real_git"]
 	path = src/realsense-ros/real_git
 	url = ./src/realsense-ros/real_git
