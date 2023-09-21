@@ -321,7 +321,7 @@ Please check the Demo_Photos_and_Videos directory for full videos
       year    = {2018},
     }
 
-- The STL models were downloaded from [Thingiverse](https://www.thingiverse.com/) under Creative Commons Liscence
+- The STL models were downloaded from [Thingiverse](https://www.thingiverse.com/) under Creative Commons Licence
   - [Subaru Impreza for FDM by derben](https://www.thingiverse.com/thing:1995220)
   - [Small Submarine by nmartin](https://www.thingiverse.com/thing:11758)
   - [(armageddon film) sateillite by joshuajacobson95](https://www.thingiverse.com/thing:4583121)
