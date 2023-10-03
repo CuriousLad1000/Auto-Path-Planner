@@ -20,12 +20,12 @@
         <geometry>
           <mesh>
             <uri>/home/shadowd/ws_panda/src/sdf_models/STLs/waves.stl</uri>
-            <scale>0.01 0.01 0.01</scale>
+            <scale>0.005 0.005 0.005</scale>
           </mesh>
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Blue</name>
+            <name>Gazebo/WoodPallet</name>
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
         </material>
@@ -35,7 +35,7 @@
         <geometry>
           <mesh>
             <uri>/home/shadowd/ws_panda/src/sdf_models/STLs/waves.stl</uri>
-            <scale>0.01 0.01 0.01</scale>
+            <scale>0.005 0.005 0.005</scale>
           </mesh>
         </geometry>
       </collision>
