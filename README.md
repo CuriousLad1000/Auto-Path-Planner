@@ -314,12 +314,14 @@ Please check the Demo_Photos_and_Videos directory for full videos
 
 - This tool was created by implementing certain functions from Open3D library. [Open3D](http://www.open3d.org/)
 
- >   @article{Zhou2018,
+```bib
+@article{Zhou2018,
       author  = {Qian-Yi Zhou and Jaesik Park and Vladlen Koltun},
       title   = {{Open3D}: {A} Modern Library for {3D} Data Processing},
       journal = {arXiv:1801.09847},
       year    = {2018},
     }
+```
 
 - The STL models were downloaded from [Thingiverse](https://www.thingiverse.com/) under Creative Commons Licence
   - [Subaru Impreza for FDM by derben](https://www.thingiverse.com/thing:1995220)
@@ -331,9 +333,22 @@ Please check the Demo_Photos_and_Videos directory for full videos
 
 ## Publication and Citation
 
-If you like my work and would like to support me, please cite my work as:
+Research paper: (https://arxiv.org/abs/2312.02603)
 
-> Under processing, check back later...
+If you like my work and would like to support me, please cite this work as:
+
+```bib
+@INPROCEEDINGS{10711320,
+  author={Tasneem, Osama and Pieters, Roel},
+  booktitle={2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)}, 
+  title={Automatic Robot Path Planning for Active Visual Inspection on Free-Form Surfaces}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={173-180},
+  keywords={Point cloud compression;Training;Visualization;Shape;Robot vision systems;Training data;Inspection;Cameras;Path planning;Hardware},
+  doi={10.1109/CASE59546.2024.10711320}}
+```
 
 <br/>
 
