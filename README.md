@@ -354,4 +354,4 @@ If you like my work and would like to support me, please cite this work as:
 
 Intersted in my work? Want to discuss something?
 
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/osama-tasneem/) 
+Let's connect on [LinkedIn](https://www.linkedin.com/in/osama-tasneem/) 
