@@ -60,8 +60,16 @@ specific changes.
   - ```console
     mkdir -p ~/ws_Auto_path_planner
     ```
-
-
+-   Install ROS, Catkin and wstools
+    - ```console
+      rosdep update
+      sudo apt update
+      sudo apt dist-upgrade
+      ```
+    - ```console
+      sudo apt install ros-noetic-catkin python3-catkin-tools python3-osrf-pycommon
+      sudo apt install python3-wstool
+      ```
 -   Download / Clone this repository
     - ```console
       git clone https://github.com/CuriousLad1000/Auto-Path-Planner.git
