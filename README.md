@@ -104,7 +104,13 @@ specific changes.
       catkin build
       ```
 
+**Note** Don't forget to change the absolute path inside all sdf files located in   ***ws_Auto_path_planner/src/sdf_models/***  to match the absolute path on your system before running simulation. Otherwise simulated objects won't spawn in gazebo since, ros won't know where the stl files are stored. Change it for visual and collision tags inside sdf file. 
 
+default path: 
+
+```console
+<uri>/home/user/ws_Auto_path_planner/src/sdf_models/STLs/Aerofoil.stl</uri>
+```
 
 
 <br/>
