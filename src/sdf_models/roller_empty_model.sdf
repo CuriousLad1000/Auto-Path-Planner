@@ -19,7 +19,7 @@
       <visual name='visual'>
         <geometry>
           <mesh>
-            <uri>/home/shadowd/ws_panda/src/sdf_models/STLs/roller_empty.stl</uri>
+            <uri>/home/user/ws_Auto_path_planner/src/sdf_models/STLs/roller_empty.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -34,7 +34,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shadowd/ws_panda/src/sdf_models/STLs/roller_empty.stl</uri>
+            <uri>/home/user/ws_Auto_path_planner/src/sdf_models/STLs/roller_empty.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>

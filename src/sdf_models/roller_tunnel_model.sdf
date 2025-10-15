@@ -19,7 +19,7 @@
       <visual name='visual'>
         <geometry>
           <mesh>
-            <uri>/home/shadowd/ws_panda/src/sdf_models/STLs/roller_tunnel_lq.stl</uri>  <!--- actual size is 2.5m x 2m x 2.5m --->
+            <uri>/home/user/ws_Auto_path_planner/src/sdf_models/STLs/roller_tunnel_lq.stl</uri>  <!--- actual size is 2.5m x 2m x 2.5m --->
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -34,7 +34,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shadowd/ws_panda/src/sdf_models/STLs/roller_tunnel_lq.stl</uri>
+            <uri>/home/user/ws_Auto_path_planner/src/sdf_models/STLs/roller_tunnel_lq.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
