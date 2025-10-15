@@ -44,7 +44,7 @@ specific changes.
 
 **Note** All codes were tested on Ubuntu 20.04.6 LTS with ROS Noetic installed.
 
-You can either use the pre-built [**Docker image**](https://hub.docker.com/r/cogrobot/autopathplanner-ros-noetic) or follow the steps mentioned under [**Manual Installation**](https://github.com/CuriousLad1000/Auto-Path-Planner/edit/main/README.md#manual-installation) to get started with the Auto-Path-Planner.
+You can either use the pre-built [**Docker image**](https://hub.docker.com/r/cogrobot/autopathplanner-ros-noetic) or follow the steps mentioned under [**Manual Installation**](https://github.com/CuriousLad1000/Auto-Path-Planner#manual-installation) to get started with the Auto-Path-Planner.
 
 
 
